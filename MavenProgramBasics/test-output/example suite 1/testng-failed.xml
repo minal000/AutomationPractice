@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <test thread-count="5" name="UnitTestingSuite(failed)">
+    <classes>
+      <class name="datadriventesting.actitimeLogin">
+        <methods>
+          <include name="actitimeLogin"/>
+          <include name="getData"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- datadriventesting.actitimeLogin -->
+      <class name="datadriventesting.ReadExcel">
+        <methods>
+          <include name="sheetOperation"/>
+          <include name="rowOps"/>
+          <include name="readDifferentTypeOfDataFromExcel"/>
+        </methods>
+      </class> <!-- datadriventesting.ReadExcel -->
+    </classes>
+  </test> <!-- UnitTestingSuite(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
